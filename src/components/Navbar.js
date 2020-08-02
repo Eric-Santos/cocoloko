@@ -12,17 +12,12 @@ const Navbar = () => {
       }}
     >
       <Link
-        to="/"
+        to="/Menu"
         style={{ color: "black", fontSize: "1.5rem", marginTop: "1rem" }}
       >
         <h2>Home</h2>
       </Link>
-      <Link
-        to="/Menu"
-        style={{ color: "black", fontSize: "1.5rem", marginTop: "1rem" }}
-      >
-        <h2>Menu</h2>
-      </Link>
+
       <Link
         to="/Contact"
         style={{ color: "black", fontSize: "1.5rem", marginTop: "1rem" }}

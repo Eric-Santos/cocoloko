@@ -1,0 +1,19 @@
+.menu img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: 2rem auto
+}
+
+@media (max-width: 800px) {
+    .menu img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .menu img {
+        width: 100%;
+    }
+}

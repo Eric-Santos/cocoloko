@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import "../styles/navbar.css";
 
+import SidebarVertical from "../components/SidebarVertical.js";
+
 const Navbar = () => {
   return (
     <div
@@ -23,6 +25,7 @@ const Navbar = () => {
       >
         <h2>Menu</h2>
       </Link>
+      <SidebarVertical />
     </div>
   );
 };

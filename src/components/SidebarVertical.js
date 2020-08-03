@@ -1,9 +1,12 @@
 import React from "react";
 import { Icon, Menu } from "semantic-ui-react";
 
+import "../styles/sidebarVertical.css";
+
 const SidebarVertical = () => {
   return (
     <Menu
+      className="hide"
       borderless
       size="mini"
       inverted

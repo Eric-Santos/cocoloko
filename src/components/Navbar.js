@@ -8,21 +8,20 @@ const Navbar = () => {
     <div
       style={{
         display: "flex",
-        justifyContent: "space-around",
+        justifyContent: "flex-end",
       }}
     >
       <Link
-        to="/Menu"
-        style={{ color: "black", fontSize: "1.5rem", marginTop: "1rem" }}
+        to="/"
+        style={{ color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" }}
       >
         <h2>Home</h2>
       </Link>
-
       <Link
-        to="/Contact"
-        style={{ color: "black", fontSize: "1.5rem", marginTop: "1rem" }}
+        to="/Menu"
+        style={{ color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" }}
       >
-        <h2>Contact</h2>
+        <h2>Menu</h2>
       </Link>
     </div>
   );

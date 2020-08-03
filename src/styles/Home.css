@@ -1,6 +1,13 @@
-.banner {
+.main h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+
+.main address {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
 }

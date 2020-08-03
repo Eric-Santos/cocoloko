@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "semantic-ui-css/semantic.min.css";
 import "./App.css";
 
-// const Home = lazy(() => import("./components/Home.js"));
+const Home = lazy(() => import("./components/Home.js"));
 const Navbar = lazy(() => import("./components/Navbar.js"));
 const Menu = lazy(() => import("./components/Menu.js"));
 const Contact = lazy(() => import("./components/Contact.js"));
@@ -15,7 +15,7 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Menu} />
+            <Route exact path="/" component={Home} />
             <Route path="/Menu" component={Menu} />
             <Route path="/Contact" component={Contact} />
           </Switch>

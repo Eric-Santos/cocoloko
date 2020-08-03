@@ -3,7 +3,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin: 2rem auto
+    margin: 10rem auto;
+    transform: rotate(90deg)
 }
 
 @media (max-width: 800px) {

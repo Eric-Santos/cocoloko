@@ -11,6 +11,7 @@ const Navbar = () => {
       style={{
         display: "flex",
         justifyContent: "flex-end",
+        color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" 
       }}
     >
       <Link

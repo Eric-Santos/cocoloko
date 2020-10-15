@@ -13,7 +13,7 @@ const SidebarVertical = () => {
       compact
       icon="labeled"
       vertical
-      fixed
+     
       style={{ position: "absolute", left: "1rem", top: "15rem" }}
     >
       <Menu.Item

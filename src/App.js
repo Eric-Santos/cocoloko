@@ -6,7 +6,8 @@ import "./App.css";
 const Home = lazy(() => import("./components/Home.js"));
 const Navbar = lazy(() => import("./components/Navbar.js"));
 const Menu = lazy(() => import("./components/Menu.js"));
-const Contact = lazy(() => import("./components/Contact.js"));
+const AboutUs = lazy(()=> import('./components/AboutUs.js'))
+// const Contact = lazy(() => import("./components/Contact.js"));
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Menu" component={Menu} />
-            <Route path="/Contact" component={Contact} />
+            <Route path='/AboutUs' component={AboutUs}/>
+            {/* <Route path="/Contact" component={Contact} /> */}
           </Switch>
         </Suspense>
       </Router>

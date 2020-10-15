@@ -25,6 +25,12 @@ const Navbar = () => {
       >
         <h2>Menu</h2>
       </Link>
+      <Link
+        to="/AboutUs"
+        style={{ color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" }}
+      >
+        <h2>About Us</h2>
+      </Link>
       <SidebarVertical />
     </div>
   );

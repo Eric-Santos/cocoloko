@@ -12,7 +12,6 @@ const ImageExampleFluid = () => (
     <img src="/images/menu7comp.jpg" alt="menu" />
     <img src="/images/menu8comp.jpg" alt="menu" />
     <img src="/images/menu9comp.jpg" alt="menu" />
-    <img src="/images/menu10comp.jpg" alt="menu" />
   </div>
 );
 

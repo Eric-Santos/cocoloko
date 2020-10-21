@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lustria');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 body h1, div {
   font-family: 'Lustria';
 }

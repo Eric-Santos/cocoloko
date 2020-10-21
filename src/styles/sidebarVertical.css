@@ -1,3 +1,7 @@
+.hide{
+    position: absolute; left: 1rem; top: 15rem
+}
+
 @media (max-width: 800px) {
     .hide {
         display: none;

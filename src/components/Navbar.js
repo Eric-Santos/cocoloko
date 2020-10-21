@@ -8,27 +8,23 @@ import SidebarVertical from "../components/SidebarVertical.js";
 const Navbar = () => {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "flex-end",
-        color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" 
-      }}
+      className='link-wrapper'
     >
       <Link
         to="/"
-        style={{ color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" }}
+        className='link'
       >
         <h2>Home</h2>
       </Link>
       <Link
         to="/Menu"
-        style={{ color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" }}
+        className='link'
       >
         <h2>Menu</h2>
       </Link>
       <Link
         to="/AboutUs"
-        style={{ color: "black", fontSize: "1.5rem", margin: "1rem 1rem 0 0" }}
+        className='link'
       >
         <h2>About Us</h2>
       </Link>

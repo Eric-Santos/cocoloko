@@ -13,8 +13,6 @@ const SidebarVertical = () => {
       compact
       icon="labeled"
       vertical
-     
-      style={{ position: "absolute", left: "1rem", top: "15rem" }}
     >
       <Menu.Item
         href="https://www.facebook.com/CocolokoElPaso/"

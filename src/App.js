@@ -7,7 +7,7 @@ const Home = lazy(() => import("./components/Home.js"));
 const Navbar = lazy(() => import("./components/Navbar.js"));
 const Menu = lazy(() => import("./components/Menu.js"));
 const AboutUs = lazy(()=> import('./components/AboutUs.js'))
-// const Contact = lazy(() => import("./components/Contact.js"));
+const Robots = lazy(() => import("./components/Robots.txt"));
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/Menu" component={Menu} />
             <Route path='/AboutUs' component={AboutUs}/>
-            {/* <Route path="/Contact" component={Contact} /> */}
+            <Route path="/Robots" component={Robots} />
           </Switch>
         </Suspense>
       </Router>

@@ -3,10 +3,12 @@
         justify-content: flex-end;
         color: black;
         font-size: 1.5rem;
-        margin: 1rem 1rem 0 0
 }
 .link{
     color: black;
     font-size: 1.5rem;
     margin: 1rem 1rem 0 0;
+}
+.link h2:hover{
+color: grey
 }
